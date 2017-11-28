@@ -4,7 +4,7 @@
 bundle exec jekyll build
 
 sass assets/css/main.scss:assets/css/main.css
-rm .sass-cache*
+rm -rf .sass-cache*
 source build_config.sh
 
 # goto destination - delete all apart from git.
