@@ -1,0 +1,43 @@
+.teaser-background {
+    display: table;
+
+    background: #fd746c; /* fallback for old browsers */
+    background: -webkit-linear-gradient(225deg, #fd746c, #ff9068); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(225deg, #fd746c, #ff9068); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+}
+
+.teaser {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+
+    h1, h2,h3{
+      max-width: 100%;
+      text-align: center;
+      color: white;
+      padding:0px 20px;
+    }
+
+    h1, h3{
+      font-family: 'Raleway', sans-serif;
+      font-size: 3.14em;
+      font-weight: 200;
+    }
+
+    h2{
+      font-family: 'Libre Baskerville', serif;
+      font-size: 1.6em;
+      font-style: italic;
+    }
+
+    h3{
+	  font-style: italic;
+	  font-size: 1em;
+	  margin-top: -21px;
+    }
+}
