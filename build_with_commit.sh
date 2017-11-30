@@ -32,7 +32,7 @@ if [ -d ${dest} ] && [ -n "$1" ]; then
 
     cd $dest
     git add -A
-    git commit -m "Updated site. $1"
+    git commit -m "$1"
 
 
 fi
