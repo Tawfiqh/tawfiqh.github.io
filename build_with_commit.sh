@@ -9,7 +9,7 @@ source build_config.sh
 
 # goto destination - delete all apart from git.
 
-if [ -d ${dest} ] && [ -n ${1} ]; then
+if [ -d ${dest} ] && [ -n "$1" ]; then
     echo "====="
     echo $dest
     echo $1

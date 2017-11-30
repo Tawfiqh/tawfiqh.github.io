@@ -1,4 +1,4 @@
-.teaser-background {
+#teaser-background {
   display: table;
   background: #fd746c;
   /* fallback for old browsers */
@@ -8,28 +8,36 @@
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 100vw;
   height: 100vh;
-  position: fixed; }
-
-.teaser {
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle; }
-  .teaser h1, .teaser h2, .teaser h3 {
-    max-width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  transform: scale(1);
+  transition: top 2s, opacity 2s, transform 1.5s; }
+  #teaser-background.animate {
+    top: -10vh;
+    opacity: 0.0;
+    transform: scale(0.95); }
+  #teaser-background #teaser {
     text-align: center;
-    color: white;
-    padding: 0px 20px; }
-  .teaser h1, .teaser h3 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3.14em;
-    font-weight: 200; }
-  .teaser h2 {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1.6em;
-    font-style: italic; }
-  .teaser h3 {
-    font-style: italic;
-    font-size: 1em;
-    margin-top: -21px; }
+    display: table-cell;
+    vertical-align: middle; }
+    #teaser-background #teaser h1, #teaser-background #teaser h2, #teaser-background #teaser h3 {
+      max-width: 100%;
+      text-align: center;
+      color: white;
+      padding: 0px 20px; }
+    #teaser-background #teaser h1, #teaser-background #teaser h3 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3.14em;
+      font-weight: 200; }
+    #teaser-background #teaser h2 {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 1.6em;
+      font-style: italic; }
+    #teaser-background #teaser h3 {
+      font-style: italic;
+      font-size: 1em;
+      margin-top: -3px; }
 
 /*# sourceMappingURL=main.css.map */
