@@ -4,7 +4,7 @@
  <title>Ansari Blueprints</title>
  <link href="http://www.ansariblueprints.com/atom.xml" rel="self"/>
  <link href="http://www.ansariblueprints.com/"/>
- <updated>2017-11-30T07:42:33+00:00</updated>
+ <updated>2017-12-10T22:49:36+00:00</updated>
  <id>http://www.ansariblueprints.com</id>
  <author>
    <name></name>
@@ -18,11 +18,28 @@
    <updated>2017-11-29T00:00:00+00:00</updated>
    <id>http://www.ansariblueprints.com/socials/quiz-night</id>
    <content type="html">&lt;ul&gt;
-  &lt;li&gt;Booked out the Doctrow hall in St Edmunds Hall&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;An unprecedentedly successful event.&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;A couple of the committee came up with questions before hand and put them into a nice powerpoint presentation.&lt;/li&gt;
   &lt;li&gt;4 sections, multiple choice to make it easier for people to at least have a guess and not just feel lost all evening.&lt;/li&gt;
-  &lt;li&gt;1 section on Islam but we didn’t want to isolate people who are less learned so we made the questions relatively easy and also limited it to only 1 round out of the 4.&lt;/li&gt;
-  &lt;li&gt;Free pizza, snacks, soft-drinks, crisps, cakes and cookies.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1 section on Islam but we didn’t want to isolate people who are less learned so we made the questions relatively easy and also limited it to only 1 round out of the 4.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;We booked out a room with:
+    &lt;ul&gt;
+      &lt;li&gt;tables that seat 5&lt;/li&gt;
+      &lt;li&gt;a projector&lt;/li&gt;
+      &lt;li&gt;a lectern&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;So that we could project the quiz, (including picture rounds) while the quiz master presented from the lectern at the front.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The tables were useful so people could write down the quiz, eat pizza and serve themselves snacks and drinks easily. But also provided a clear demarcation of teams that helped team unity, team spirit and stopped people swapping teams half way through.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Free pizza, snacks, soft-drinks, halal sweets (halalibos), crisps, cakes and cookies. Always good.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
@@ -36,11 +53,12 @@
 &lt;ul&gt;
   &lt;li&gt;Invite Islamic poets from London and around the country to come and perform.&lt;/li&gt;
   &lt;li&gt;Have an hour or two of performers and then an open-mic section where anyone is free to come and perform. Agree with a few people beforehand that they’ll prepare something for the open mic.&lt;/li&gt;
-  &lt;li&gt;Charge tickets for entry to make a profit for ISoc but also to cover the costs of paying the artists to come and perform.
--Provide food as it’s a long evening event.&lt;/li&gt;
+  &lt;li&gt;Charge tickets for entry to make a profit for ISoc but also to cover the costs of paying the artists to come and perform.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Provide food as it’s a long evening event.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;It might be nice to also roll out some rugs at the front and have people sit on the floor, this was tried in 2015 but no one sat on the rugs. It looked nice tho.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;-It might be nice to also roll out some rugs at the front and have people sit on the floor, this was tried in 2015 but no one sat on the rugs.&lt;/p&gt;
 </content>
  </entry>
  
@@ -49,10 +67,16 @@
    <link href="http://www.ansariblueprints.com/islamic-outreach/open-jummuah/"/>
    <updated>2017-11-29T00:00:00+00:00</updated>
    <id>http://www.ansariblueprints.com/islamic-outreach/open-jummuah</id>
-   <content type="html">&lt;p&gt;-Print out some informational booklets for non-muslims. Namely a “how to pray guide” so that they understand what is going on when everyone else is actually performing salaat.
--If the ISoc is doing 2 jummuahs that week, best to only make one of them the open jummuah and really focus on that jummuah being catered to non-muslims. This also means there is a larger group of non-muslims that attend and people will see that there is genuine interest.
--Normally combined with a bake sale.
--Pick a good khateeb and a good topic for him to speak about.&lt;/p&gt;
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Print out some informational booklets. Namely a “how to pray guide” so that guests understand what is going on when everyone else is performing salaat.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If the ISoc is doing 2 jummuahs that week, best to only make one of them the open jummuah and really focus on that jummuah being catered to non-muslims and explaining Islamic terms that might otherwise be incomprehensible. This also means there is a larger group of non-muslims that attend and people will see that there is genuine interest.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Normally combined with a bake sale.&lt;/li&gt;
+  &lt;li&gt;Pick a good khateeb and a relevant topic for him to speak about.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
@@ -84,11 +108,13 @@
    <link href="http://www.ansariblueprints.com/socials/halal-crawl/"/>
    <updated>2017-11-29T00:00:00+00:00</updated>
    <id>http://www.ansariblueprints.com/socials/halal-crawl</id>
-   <content type="html">&lt;p&gt;Start at Jericho
-Walk to Cowley
-Eat at as many halal places as feasibly possible along the way iA.
-Important: Post a schedule beforehand and post updates to facebook as you go along so that people can meet you along the way iA. This worked really well and people were able to join us for certain parts depending on their schedule.
--Without the organisation only a handful of people show up at the beginning and leave slowly, the event would be poor.&lt;/p&gt;
+   <content type="html">&lt;p&gt;We set a central meeting point in town that is convenient for everyone.&lt;/p&gt;
+
+&lt;p&gt;Decide on a route around town that stops at as many halal places as feasibly possible along the way iA.&lt;/p&gt;
+
+&lt;p&gt;Important: Post a schedule beforehand and post updates to facebook as you go along so that people can meet you along the way iA.&lt;/p&gt;
+
+&lt;p&gt;This worked really well and people were able to join us for certain parts depending on their schedule. Without this organisation only a handful of people show up at the beginning and leave slowly, the event would be poor.&lt;/p&gt;
 </content>
  </entry>
  
@@ -97,7 +123,7 @@ Important: Post a schedule beforehand and post updates to facebook as you go alo
    <link href="http://www.ansariblueprints.com/socials/graduate-roundtable/"/>
    <updated>2017-11-29T00:00:00+00:00</updated>
    <id>http://www.ansariblueprints.com/socials/graduate-roundtable</id>
-   <content type="html">&lt;p&gt;Educate ourselves about (sometimes controversial) topics we casually hear about in the media by learning them from the people who actually work on them in daily basis (e.g. quantum physics from Physics students, cyber security from Computer Science students, theory of evolution from Biology/Medicine students, etc)&lt;/p&gt;
+   <content type="html">&lt;p&gt;Educate ourselves about topics we casually hear about in the media by learning them from the people who actually work on them in daily basis (e.g. quantum physics from Physics students, cyber security from Computer Science students, theory of evolution from Biology/Medicine students, etc)&lt;/p&gt;
 
 &lt;p&gt;Followed by refreshments and networking sessions&lt;/p&gt;
 </content>
@@ -108,15 +134,17 @@ Important: Post a schedule beforehand and post updates to facebook as you go alo
    <link href="http://www.ansariblueprints.com/socials/games-night/"/>
    <updated>2017-11-29T00:00:00+00:00</updated>
    <id>http://www.ansariblueprints.com/socials/games-night</id>
-   <content type="html">&lt;p&gt;-A generally well received alternative to brothers football.
--Initially this ran at the same time as football but many brothers wanted to come to both games night and football.
--Find a TV Room - Saturdays - 8 till l8.
--Xbox, Table tennis, kebabs and board games.
--Book out the DVD room to play Xbox.
--Table tennis room to play ping pong.
--Normally brothers will buy dinner at some point, either local kebabs or order in Pizza
--Much banter and good chat ensues.
--Board games are always an option, yet to be tried though i believe.&lt;/p&gt;
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;A generally well received alternative to brothers football.&lt;/li&gt;
+  &lt;li&gt;Initially this ran at the same time as football but many brothers wanted to come to both games night and football.&lt;/li&gt;
+  &lt;li&gt;Find a TV Room - Saturdays - 8 till l8.&lt;/li&gt;
+  &lt;li&gt;Xbox, Table tennis, kebabs and board games.&lt;/li&gt;
+  &lt;li&gt;Book out the DVD room to play Xbox.&lt;/li&gt;
+  &lt;li&gt;Table tennis room to play ping pong.&lt;/li&gt;
+  &lt;li&gt;Normally brothers will buy dinner at some point, either local kebabs or order in Pizza&lt;/li&gt;
+  &lt;li&gt;Much banter and good chat ensues.&lt;/li&gt;
+  &lt;li&gt;Board games are always an option, yet to be tried though i believe.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
@@ -125,12 +153,15 @@ Important: Post a schedule beforehand and post updates to facebook as you go alo
    <link href="http://www.ansariblueprints.com/socials/formal-hall/"/>
    <updated>2017-11-29T00:00:00+00:00</updated>
    <id>http://www.ansariblueprints.com/socials/formal-hall</id>
-   <content type="html">&lt;p&gt;-We used to hold this fortnightly, such that we’d aim to do three or four a term.
--Organise by getting someone at a given college to contact their hall manager and book in for a group of 20 or so. Or if you have several members at a particular college get each of them to book in several guests.
--Exeter provided us halal meat and we booked through the hall manager.
--St Johns provided us with vegetarian food and we had 5 of our members each book for 5 guests giving us 25 spaces.
--Demand is normally so high you can raise the price above cost price and raise some money for the ISoc.
--Segregation is sometimes a point of contention. Our particular stance was to not enforce anything. Those who wanted to sit with just the same gender did so, those who wanted to mix  did so.&lt;/p&gt;
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;We used to hold this fortnightly, such that we’d aim to do three or four a term.&lt;/li&gt;
+  &lt;li&gt;Organise by getting someone at a given college to contact their hall manager and book in for a group of 20 or so. Or if you have several members at a particular college get each of them to book in several guests.&lt;/li&gt;
+  &lt;li&gt;Exeter provided us halal meat and we booked through the hall manager.&lt;/li&gt;
+  &lt;li&gt;Some college provide us with vegetarian food.&lt;/li&gt;
+  &lt;li&gt;For booking we had 5 of our members each book for 5 guests giving us 25 spaces.&lt;/li&gt;
+  &lt;li&gt;Demand is normally so high you can raise the price above cost price and raise some money for the ISoc.&lt;/li&gt;
+  &lt;li&gt;Segregation sometimes comes up as a point of contention. Our particular stance was to not enforce anything. Those who wanted to sit with just the same gender did so, those who wanted to mix did so.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
@@ -155,9 +186,9 @@ Important: Post a schedule beforehand and post updates to facebook as you go alo
    <content type="html">&lt;p&gt;-Meet in the prayer room for fajr.
 -Tell people to meet at 7, wait until 7:10 for late comers.
 -Keep people updated on facebook as to where you go for breakfast. That way if they don’t make fajr in the prayer room they can still join for breakfast iA
--Then go to a nearby college and cook breakfast, eat and be merry. Either goto the supermarket the night before or wait for the morning and buy food once you see how many people come for fajr. (Need to check opening hours of shops before hand)
+-Then go to someone’s kitchen nearby and cook breakfast, eat and be merry. Either goto the supermarket the night before or wait for the morning and buy food once you see how many people come for fajr. (Need to check opening hours of shops before hand)
 -Or eat at a nearby cafe that is open at that time. (Need to check opening hours beforehand)
--Or eat in hall at a nearby college’s breakfast. (opening times permitting)
+-Or eat in hall at a nearby cafe’s breakfast. (opening times permitting)
 -If fajr is early, spend time waiting for shops/cafes to open, either do work, zhikr, read Quran, chat, clean the store-cupboard, be merry etc.&lt;/p&gt;
 </content>
  </entry>
@@ -179,6 +210,13 @@ Important: Post a schedule beforehand and post updates to facebook as you go alo
    <updated>2017-11-29T00:00:00+00:00</updated>
    <id>http://www.ansariblueprints.com/charity/charity-dinner</id>
    <content type="html">&lt;p&gt;Booked into a relatively cheap formal hall for 20 people. Charged a markup on the cost price. Donated the profit to charity.&lt;/p&gt;
+
+&lt;p&gt;Booked a restaurant or college at agreed price before hand per head.&lt;/p&gt;
+
+&lt;p&gt;Sold tickets at a marked up price.&lt;/p&gt;
+
+&lt;p&gt;Got a fun ISoc member to host a nice auction. Where pieces of artwork or other items
+were auctioned off.&lt;/p&gt;
 </content>
  </entry>
  
@@ -187,7 +225,9 @@ Important: Post a schedule beforehand and post updates to facebook as you go alo
    <link href="http://www.ansariblueprints.com/socials/bike-tour/"/>
    <updated>2017-11-29T00:00:00+00:00</updated>
    <id>http://www.ansariblueprints.com/socials/bike-tour</id>
-   <content type="html">&lt;p&gt;Pick a time, destination and place to meet, then cycle away! Has been done before by the brothers, normally early morning, perhaps after fajr and then back in time for a nice big brunch.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Pick a time, destination and place to meet, then cycle away!&lt;/p&gt;
+
+&lt;p&gt;Has been done before by the brothers, normally early morning, perhaps after fajr and then back in time for a nice big brunch.&lt;/p&gt;
 </content>
  </entry>
  
@@ -196,7 +236,15 @@ Important: Post a schedule beforehand and post updates to facebook as you go alo
    <link href="http://www.ansariblueprints.com/charity/Bake-Sale/"/>
    <updated>2017-11-29T00:00:00+00:00</updated>
    <id>http://www.ansariblueprints.com/charity/Bake-Sale</id>
-   <content type="html">&lt;p&gt;Mashallah always really popular, set up a table outside the prayer room in the foyer. Sell cake after jummah. Members of the society donate cake.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Mashallah always really popular, set up a table outside the prayer room in the foyer.&lt;/p&gt;
+
+&lt;p&gt;Sell cake after jummah.&lt;/p&gt;
+
+&lt;p&gt;Members of the society donate cake, or can buy from Tesco.&lt;/p&gt;
+
+&lt;p&gt;Need to get permission to sell cakes on site.&lt;/p&gt;
+
+&lt;p&gt;Also need to get permissions to setup a stand in the foyer (or wherever you are selling from).&lt;/p&gt;
 </content>
  </entry>
  

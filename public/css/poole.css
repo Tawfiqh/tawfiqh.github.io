@@ -60,7 +60,7 @@ html {
 
 body {
   color: #515151;
-  background-color: #fff;
+  /*background-color: #fff;*/
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -285,13 +285,13 @@ tbody tr:nth-child(odd) th {
  * Center the page content.
  */
 
-.container {
+/*.container {
   max-width: 38rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
-}
+}*/
 
 
 /*

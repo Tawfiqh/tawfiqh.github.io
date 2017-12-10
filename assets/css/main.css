@@ -1,43 +1,37 @@
-#teaser-background {
-  display: table;
-  background: #fd746c;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(225deg, #fd746c, #ff9068);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(225deg, #fd746c, #ff9068);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  left: 0;
-  top: 0;
-  opacity: 1;
-  transform: scale(1);
-  transition: top 2s, opacity 2s, transform 1.5s; }
-  #teaser-background.animate {
-    top: -10vh;
-    opacity: 0.0;
-    transform: scale(0.95); }
-  #teaser-background #teaser {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle; }
-    #teaser-background #teaser h1, #teaser-background #teaser h2, #teaser-background #teaser h3 {
-      max-width: 100%;
-      text-align: center;
-      color: white;
-      padding: 0px 20px; }
-    #teaser-background #teaser h1, #teaser-background #teaser h3 {
-      font-family: 'Raleway', sans-serif;
-      font-size: 3.14em;
-      font-weight: 200; }
-    #teaser-background #teaser h2 {
-      font-family: 'Libre Baskerville', serif;
-      font-size: 1.6em;
-      font-style: italic; }
-    #teaser-background #teaser h3 {
-      font-style: italic;
-      font-size: 1em;
-      margin-top: -3px; }
+/*
+Error: Invalid CSS after "...rt "index.scss"": expected "{", was ";"
+        on line 5 of assets/css/main.scss
 
-/*# sourceMappingURL=main.css.map */
+1: ---
+2: 
+3: ---
+4: 
+5: @import "index.scss";
+6: @import "default.scss";
+
+Backtrace:
+assets/css/main.scss:5
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1203:in `tok!'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:677:in `block'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:670:in `ruleset'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:696:in `block_child'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:686:in `block_contents'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:41:in `parse'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:391:in `run'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+/Users/tawfiq/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+/Users/tawfiq/.rbenv/versions/2.3.1/bin/sass:23:in `load'
+/Users/tawfiq/.rbenv/versions/2.3.1/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...rt \"index.scss\"\": expected \"{\", was \";\"\A         on line 5 of assets/css/main.scss\A \A 1: ---\A 2: \A 3: ---\A 4: \A 5: @import \"index.scss\";\A 6: @import \"default.scss\";"; }
