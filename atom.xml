@@ -4,7 +4,7 @@
  <title>Ansari Blueprints</title>
  <link href="http://www.ansariblueprints.com/atom.xml" rel="self"/>
  <link href="http://www.ansariblueprints.com/"/>
- <updated>2017-12-15T09:54:34+00:00</updated>
+ <updated>2017-12-20T08:18:58+00:00</updated>
  <id>http://www.ansariblueprints.com</id>
  <author>
    <name></name>
@@ -17,7 +17,28 @@
    <link href="http://www.ansariblueprints.com/socials/quiz-night/"/>
    <updated>2017-11-29T00:00:00+00:00</updated>
    <id>http://www.ansariblueprints.com/socials/quiz-night</id>
-   <content type="html">&lt;ul&gt;
+   <content type="html">&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;In a nutshell, what did you do.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-benefitsgoodness--what-was-good-&quot;&gt;1. Benefits/Goodness ( What was good )&lt;/h2&gt;
+&lt;p&gt;Why and how was this of benefit to the community?
+What was good about it?&lt;/p&gt;
+
+&lt;h2 id=&quot;2-step-by-step--what-did-you-guys-do-&quot;&gt;2. Step-by-step ( What did you guys do )&lt;/h2&gt;
+&lt;p&gt;Ingredients ( What did you guys need )&lt;/p&gt;
+
+&lt;h2 id=&quot;3-challenges--potential-sticking-pounts--what-was-hard-&quot;&gt;3. Challenges &amp;amp; potential sticking pounts ( What was hard )&lt;/h2&gt;
+&lt;p&gt;What did you find hard, how did you solve it?&lt;/p&gt;
+
+&lt;h2 id=&quot;4-logistical-tips-tips-for-others-&quot;&gt;4. Logistical tips (Tips for others )&lt;/h2&gt;
+
+&lt;h2 id=&quot;5-further-improvements-how-would-you-want-to-improve-the-event-if-you-had-more-resources&quot;&gt;5. Further improvements (How would you want to improve the event if you had more resources.)&lt;/h2&gt;
+
+&lt;h2 id=&quot;ending-notes--closing-remarks-thoughts-well-wishes-and-advice-&quot;&gt;Ending notes ( Closing remarks, thoughts, well wishes and advice. )&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;An unprecedentedly successful event.&lt;/p&gt;
   &lt;/li&gt;
