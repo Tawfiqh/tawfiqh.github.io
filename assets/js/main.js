@@ -8,4 +8,9 @@ $(document).ready(function() {
 
   });
 
+
+  $(".toggle-searchbar").click(function(){
+    $(".search-container").toggle();
+  })
+
 });

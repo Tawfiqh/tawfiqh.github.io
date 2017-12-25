@@ -39,12 +39,16 @@
 
 
   <!-- JS  -->
-  <!-- Latest compiled and minified CSS -->
+  <!-- Latest compiled and minified Bootstrap CSS -->
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Latest compiled JavaScript -->
+  <!-- Latest compiled Bootstrap JavaScript -->
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+  <!-- choose one for Feather icons-->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <!-- <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script> -->
 
   <script src="/assets/js/main.js"></script>
 
@@ -62,7 +66,7 @@
 
         
 
-        <div class="row header-navbar" >
+        <div class="header-navbar" >
   <ul class="navbar">
     <li class="navbar-item">
       <a href="/" class="home-link">
@@ -99,8 +103,51 @@
         </a>
       </li>
       
+      <li class="navbar-item">
+        <button class="search-icon toggle-searchbar blank-button" >
+          <i data-feather="search"></i>
+        </button>
+      </li>
   </ul>
 </div>
+
+<div class="search-container" style="display: none;">
+
+  <div id="search-box">
+
+    <button class="close-button toggle-searchbar blank-button">
+      <i data-feather="x"></i>
+    </button>
+
+    <div class="search-bar">
+      <div class="input-prefix-item" style="display: none;">
+        <i data-feather="search"></i>
+      </div>
+      <input type="text" id="search-input" placeholder="search...">
+    </div>
+
+    <ul id="results-container" class="post-previews smaller-previews">
+    </ul>
+  </div>
+
+
+</div>
+
+<!-- script pointing to jekyll-search.js -->
+<!-- <script src="//assets/js/simple-jekyll-search.min.js"></script> -->
+<script src="https://unpkg.com/simple-jekyll-search@1.1.6/dest/jekyll-search.min.js"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json',
+  searchResultTemplate: '<div class="post"><div class="image"><img src= "/assets/{image}" alt="{title}" class="post-image"></div><div class="info"><h1 class="post-title"><a href="{url}">{title}</a></h1><span class="post-date">{category} {tags}</span></div></div>',
+
+})
+</script>
+
 
 
       </div>
@@ -121,7 +168,9 @@
   <div class="advert" style="height:150px; background:darkgreen ;padding-left:10%;line-height:150px;text-align:center; color:white;">
     Advert
   </div>
-  
+  <script>
+    feather.replace()
+  </script>
   <!-- Footer. -->
 </div>
 

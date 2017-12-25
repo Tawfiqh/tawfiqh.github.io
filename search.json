@@ -1,0 +1,171 @@
+[
+  
+    {
+
+      "title"    : "Poetry Night",
+      "url"      : "/spirituality/poetry-night/",
+      "category" : "Spirituality",
+      "image" : "PoetryNight.jpg",
+      "tags"     : "ISoc,MSA,arts,socials",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Quiz Night",
+      "url"      : "/socials/quiz-night/",
+      "category" : "Socials",
+      "image" : "QuizNight.jpg",
+      "tags"     : "ISoc,MSA,socials,sisters-socials",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Mocktails Night",
+      "url"      : "/socials/mocktails-night/",
+      "category" : "Socials",
+      "image" : "Mocktails.jpg",
+      "tags"     : "ISoc,MSA,socials,sisters-socials",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Halal Crawl",
+      "url"      : "/socials/halal-crawl/",
+      "category" : "Socials",
+      "image" : "FoodCrawl.jpg",
+      "tags"     : "ISoc,MSA,socials,sisters-socials",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Graduate Roundtables",
+      "url"      : "/socials/graduate-roundtable/",
+      "category" : "Socials",
+      "image" : "GraduateRoundTable.jpg",
+      "tags"     : "ISoc,MSA,socials,sisters-socials",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Games Night",
+      "url"      : "/socials/games-night/",
+      "category" : "Socials",
+      "image" : "GamesNight.jpg",
+      "tags"     : "ISoc,MSA,socials,sisters-socials",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Formal Hall",
+      "url"      : "/socials/formal-hall/",
+      "category" : "Socials",
+      "image" : "FormalHall.jpg",
+      "tags"     : "ISoc,MSA,socials",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Fajr Breakfast",
+      "url"      : "/socials/fajr-breakfast/",
+      "category" : "Socials",
+      "image" : "Breakfast.jpg",
+      "tags"     : "ISoc,MSA,socials,food,breakfast,brunch,cooking,fajr,prayer,",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Bike Tour",
+      "url"      : "/socials/bike-tour/",
+      "category" : "Socials",
+      "image" : "Bicycle.jpg",
+      "tags"     : "ISoc,MSA,socials,outside,outdoors,exercise",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Fast-a-thon",
+      "url"      : "/local-community/fast-a-thon/",
+      "category" : "Local-Community",
+      "image" : "Iftar.jpg",
+      "tags"     : "ISoc,MSA,fasting,dawaah,interfaith,outreach",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Cultural Fair",
+      "url"      : "/local-community/cultural-fair/",
+      "category" : "Local-Community",
+      "image" : "CulturalFair.jpg",
+      "tags"     : "ISoc,MSA,outreach,dawaah,interfaith",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Open Jummuah",
+      "url"      : "/dawaah/open-jummuah/",
+      "category" : "Dawaah",
+      "image" : "Friday.jpg",
+      "tags"     : "ISoc,MSA,outreach,dawaah,interfaith",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Charity Dinner",
+      "url"      : "/charity/charity-dinner/",
+      "category" : "Charity",
+      "image" : "CharityAuction.jpg",
+      "tags"     : "ISoc,MSA,socials",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Bake Sale",
+      "url"      : "/charity/Bake-Sale/",
+      "category" : "Charity",
+      "image" : "Cake2.jpeg",
+      "tags"     : "ISoc,MSA,charity",
+      "date"     : "2017-11-29 00:00:00 +0000",
+      "description" : ""
+
+    } 
+  
+]
