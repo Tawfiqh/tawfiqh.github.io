@@ -143,8 +143,16 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
-  searchResultTemplate: '<div class="post"><div class="image"><img src= "/assets/{image}" alt="{title}" class="post-image"></div><div class="info"><h1 class="post-title"><a href="{url}">{title}</a></h1><span class="post-date">{category} {tags}</span></div></div>',
-
+  searchResultTemplate:
+  '<div class="post"> \
+      <div class="image"> \
+        <img src= "/assets/{image}" alt="{title}" class="post-image"> \
+      </div> \
+      <div class="info"> \
+        <h1 class="post-title"><a href="{url}">{title}</a></h1> \
+        <span class="post-date">{category}</span> \
+      </div> \
+  </div>'
 })
 </script>
 
