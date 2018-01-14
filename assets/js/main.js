@@ -10,7 +10,6 @@ $(document).ready(function() {
 
 
   $(".toggle-searchbar").click(function(){
-    $("body").toggleClass("modalOpen");
     $(".search-container").toggle();
   })
 
