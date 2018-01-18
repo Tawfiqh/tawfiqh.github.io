@@ -151,8 +151,16 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
-  searchResultTemplate: '<div class="post"><div class="image"><img src= "/assets/{image}" alt="{title}" class="post-image"></div><div class="info"><h1 class="post-title"><a href="{url}">{title}</a></h1><span class="post-date">{category} {tags}</span></div></div>',
-
+  searchResultTemplate:
+  '<div class="post"> \
+      <div class="image"> \
+        <img src= "/assets/{image}" alt="{title}" class="post-image"> \
+      </div> \
+      <div class="info"> \
+        <h1 class="post-title"><a href="{url}">{title}</a></h1> \
+        <span class="post-date">{category}</span> \
+      </div> \
+  </div>'
 })
 </script>
 
@@ -364,9 +372,9 @@ SimpleJekyllSearch({
 <div class="sidebar-container">
   <div class="sidebar">
 
-  <div class="advert" style="height:150px; background:darkgreen ;padding-left:10%;line-height:150px;text-align:center; color:white;">
+  <!-- <div class="advert" style="height:150px; background:darkgreen ;padding-left:10%;line-height:150px;text-align:center; color:white;">
     Advert
-  </div>
+  </div> -->
 
   <div class="recent-articles-list articles-list">
 
@@ -450,13 +458,14 @@ SimpleJekyllSearch({
       <!-- Footer -->
       <div class="footer-container">
       <div class="footer">
-  <div class="advert" style="height:150px; background:darkgreen ;padding-left:10%;line-height:150px;text-align:center; color:white;">
+  <!-- <div class="advert" style="height:150px; background:darkgreen ;padding-left:10%;line-height:150px;text-align:center; color:white;">
     Advert
-  </div>
+  </div> -->
+
+  <!-- We run in the footer so it reloads and replaces all feather icons in the rest of the page. -->
   <script>
     feather.replace()
   </script>
-  <!-- Footer. -->
 </div>
 
       </div>
