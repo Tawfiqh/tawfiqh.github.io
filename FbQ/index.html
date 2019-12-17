@@ -12,24 +12,25 @@
 
 
     <style>
-        
+
     html, body{
     	height: 100%;
+      margin: 0;
     }
-    
+
     #quran-iframe{
-    position:relative;
-    top:0px;
-    left:0;
-    width:100%;
-    height:90%;
+      position:relative;
+      top:0px;
+      left:0;
+      width:100%;
+      height:90%;
     }
-    
+
     #button-wrapper{
     	width: 100%;
     	display:flex;
-			justify-content: space-around;	
-			margin: 20px 0px;
+			justify-content: space-around;
+			padding: 20px 0px;
     }
 
     #iFrameWrapper{
@@ -39,7 +40,7 @@
 			width: 100%;
 			height: 100%;
     }
-    
+
     .button{
 			text-decoration: none;
 /* 			text-transform: uppercase; */
@@ -50,29 +51,74 @@
 			text-align: center;
 			margin: 5px;
 			display: flex;
-			align-items:center;			
+			align-items:center;
 			background: #f8f8f8;
 		}
-		
+
 		@media (min-width: 992px){
 		 .button{
 				padding: 10px;
-				margin: 8px;		
+				margin: 8px;
 			}
 		}
-		
+
+    @media (prefers-color-scheme: dark) {
+
+      html, body{
+      	height: 100%;
+        /* background-color: #2D2D2B; */
+      }
+
+      #button-wrapper{
+        background-color: #2D2D2B;
+      }
+
+      .button{
+        border: 1px solid rgb(233, 233, 233);
+        background: #748291;
+      }
+
+      a{
+          text-decoration: underline;
+      }
+
+      a:link {
+        color: white;
+      }
+
+      /* visited link */
+      a:visited {
+        color: white;
+      }
+
+      /* mouse over link */
+      a:hover {
+        color: rgb(224, 224, 224);
+      }
+
+      /* selected link */
+      a:active {
+        color: rgb(202, 202, 202);
+      }
+
+      #iFrameWrapper{
+  			mix-blend-mode: difference;
+      }
+
+    }
+
     </style>
-   
+
   </head>
 <body>
   <script src="fbq.js"></script>
-  
+
   <div id="button-wrapper">
 		<a href="https://www.facebook.com" class="button">Go to Fb</a>
 		<a href="https://m.facebook.com" class="button">Go to mobile Fb</a>
 		<a href="https://www.facebook.com" class="button" id="further-quran-read" target="quran-iframe">Read more context</a>
   </div>
-  
+
 	<div id="iFrameWrapper">
 	 <iframe id="quran-iframe" name="quran-iframe" src="https://www.quran.com/13/24" frameborder="0" scrolling="yes"></iframe>
 	</div>
