@@ -34,12 +34,6 @@ iframe{
 	overflow: hidden;
 }
 
-#hadith-iframe{
-	top: -150px;
-	left: -150px;
-	width: calc(100% + 150px);
-	height: calc(100% + 150px);
-}
 
 .button{
 		text-decoration: none;
@@ -57,12 +51,34 @@ iframe{
 
 	}
 
-	@media (min-width: 992px){
-	 .button{
-			padding: 10px;
-			margin: 8px;
-		}
+@media (max-width: 992px) {
+	#hadith-iframe{
+		top: -150px;
+		left: -150px;
+		width: calc(100% + 150px);
+		height: calc(100% + 150px);
 	}
+}
+
+@media (max-width: 430px){
+	#hadith-iframe{
+		color: green;
+		top: -150px;
+		left: -210px;
+		width: calc(100% + 210px);
+		height: calc(100% + 150px);
+	}
+}
+
+
+@media (min-width: 992px){
+ .button{
+		padding: 10px;
+		margin: 8px;
+	}
+
+
+}
 
 @media (prefers-color-scheme: dark) {
 
