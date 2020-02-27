@@ -7,109 +7,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="translucent black" />
     <meta name="viewport" content="initial-scale=1">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
-
-
-    <style>
-
-    html, body{
-    	height: 100%;
-      margin: 0;
-    }
-
-    #quran-iframe{
-      position:relative;
-      top:0px;
-      left:0;
-      width:100%;
-      height:90%;
-    }
-
-    #button-wrapper{
-    	width: 100%;
-    	display:flex;
-			justify-content: space-around;
-			padding: 20px 0px;
-    }
-
-    #iFrameWrapper{
-			/* position: absolute;
-			top:30px;
-			left: 0; */
-			width: 100%;
-			height: 100%;
-    }
-
-    .button{
-			text-decoration: none;
-/* 			text-transform: uppercase; */
-			font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-			padding: 13px;
-			border: 1px solid grey;
-			border-radius: 7px;
-			text-align: center;
-			margin: 5px;
-			display: flex;
-			align-items:center;
-			background: #f8f8f8;
-            cursor: pointer;
-		}
-
-		@media (min-width: 992px){
-		 .button{
-				padding: 10px;
-				margin: 8px;
-			}
-		}
-
-    @media (prefers-color-scheme: dark) {
-
-      html, body{
-      	height: 100%;
-        background-color: #faf3f2;
-
-      }
-
-      #button-wrapper{
-        background-color: #0e1b1e;
-      }
-
-      .button{
-        border: 1px solid rgb(233, 233, 233);
-        background: rgb(15, 25, 31);
-        color: white;
-      }
-
-      a{
-          text-decoration: underline;
-          color: white;
-      }
-
-      a:link {
-        color: white;
-      }
-
-      /* visited link */
-      a:visited {
-        color: white;
-      }
-
-      /* mouse over link */
-      a:hover {
-        color: rgb(224, 224, 224);
-      }
-
-      /* selected link */
-      a:active {
-        color: rgb(202, 202, 202);
-      }
-
-      #iFrameWrapper{
-  			mix-blend-mode: difference;
-      }
-
-    }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="../styling.css">
 
   </head>
 <body>
@@ -121,7 +19,17 @@
   </div>
 
 	<div id="iFrameWrapper">
-	 <iframe id="quran-iframe" name="quran-iframe" src="https://www.quran.com/13/24" frameborder="0" scrolling="yes"></iframe>
+        <iframe id="hadith-iframe" src="https://sunnah.com/nawawi40/" frameborder="0" scrolling="yes"></iframe>
 	</div>
+
 </body>
+<!-- Doesn't work because of CORS -->
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        var myIframe = document.querySelector("#hadith-iframe");
+        myIframe.addEventListener("load", function() {
+            this.contentWindow.scrollBy(1000,100000)
+        });
+    })
+</script> -->
 </html>

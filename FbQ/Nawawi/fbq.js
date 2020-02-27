@@ -22,7 +22,7 @@ function setupPageContent(){
 
     var rootDestination = "http://sunnah.com/nawawi40/"
     var destination =rootDestination + currentHadith
-    document.getElementById('quran-iframe').src = destination;
+    document.getElementById('hadith-iframe').src = destination;
 
 }
 
