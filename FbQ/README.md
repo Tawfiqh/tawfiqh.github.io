@@ -1,6 +1,10 @@
-[One page loads verses from Qur'an.](http://www.ansariblueprints.com/FbQ/)  
+3 simple static HTML/CSS/JS pages that load an iFrame to Qur'an and Hadith.
 
-[One page loads hadith](http://www.ansariblueprints.com/FbQ/Nawawi/index.html)
+[Verses from Qur'an](http://www.ansariblueprints.com/FbQ/)  
+
+[Hadith from Nawawi's 42](http://www.ansariblueprints.com/FbQ/Nawawi/)
+
+[Hadith from collection of 40 hadith Qudsi](http://www.ansariblueprints.com/FbQ/Qudsi/)
 
 
 * * *
