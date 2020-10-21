@@ -2,9 +2,6 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 document.addEventListener("DOMContentLoaded", function(event) { 
-//   do work
-// });
-// $(document).ready(function() {
 
 		var a = getRandomInt(1,114);
 
@@ -21,7 +18,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		var furtherDestination ="https://www.quran.com/" + a + '/' + Math.max(1, b - 6) + '-' + Math.min(b+8,lens[a-1]);
 
 		console.log(destination);
-		
+		window.location.replace(furtherDestination);
+
 		document.getElementById('quran-iframe').src = destination;
 		document.getElementById('further-quran-read').href = furtherDestination;
 		// 		"<iframe id=\"my-iframe\" src=\"https://www.quran.com/$a/$b\" frameborder=\"0\" scrolling=\"yes\"></iframe>";
